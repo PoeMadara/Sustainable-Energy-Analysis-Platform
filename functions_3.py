@@ -44,10 +44,11 @@ def load_and_clean_data(filepath, scale=True):
 
     return df
 
+'''
 def split_data(df):
-    '''
+    ''
     Divide el dataframe en características y variable objetivo.
-    '''
+    ''
     # Variables predictoras (X) y objetivo (y)
     X = df.drop(columns=['solar_electricity'])
     y = df['solar_electricity']
@@ -56,6 +57,8 @@ def split_data(df):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     return X_train, X_test, y_train, y_test
+
+'''
 
 def save_clean_data(df, filepath):
     '''

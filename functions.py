@@ -1,60 +1,114 @@
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder
 
-def load_and_clean_data(filepath, scale=True):
-    '''
-    Carga y limpia el dataset, maneja los valores nulos, selecciona las columnas relevantes,
-    escala los datos numéricos y devuelve el dataframe listo para usar.
-    '''
-    # Cargar el dataset
+def load_and_clean_data(filepath):
+    """
+    Load the dataset and perform basic cleaning, such as handling missing values.
+    
+    Parameters:
+    - filepath: str, path to the dataset
+
+    Returns:
+    - df: pandas DataFrame, cleaned dataset
+    """
     df = pd.read_csv(filepath)
+    df.fillna(0, inplace=True)  # Fill missing values
+    return df
+
+def filter_columns(df):
+    """
+    Filter the DataFrame to retain only specified columns.
     
-    # Seleccionar columnas clave (incluso year)
+    Parameters:
+    - df: pandas DataFrame
+    
+    Returns:
+    - df_filtered: pandas DataFrame, filtered DataFrame
+    """
     columns_to_keep = [
-        'year', 'country', 'iso_code', 'population', 'gdp', 'electricity_demand',
-        'electricity_generation', 'electricity_share_energy',
-        'energy_cons_change_twh', 'energy_per_capita', 'energy_per_gdp', 
-        'solar_consumption', 'wind_consumption', 'biofuel_consumption', 'biofuel_electricity', 
-        'hydro_electricity', 'solar_electricity', 'wind_electricity', 
-        'solar_cons_change_twh', 'wind_cons_change_twh', 
-        'biofuel_cons_change_pct', 'solar_share_elec', 'wind_share_elec'
+        'solar_electricity', 'wind_electricity', 'biofuel_electricity', 'hydro_electricity',
+        'population', 'gdp', 'electricity_demand', 'energy_per_capita', 'energy_per_gdp',
+        'solar_consumption', 'wind_consumption', 'biofuel_consumption', 'hydro_consumption',
+        'country', 'iso_code'  # Ejemplo de columnas categóricas
     ]
+    return df[columns_to_keep]
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder
+
+def apply_label_encoding(df):
+    """
+    Apply Label Encoding to categorical columns in the DataFrame.
     
-    # Filtrar solo las columnas útiles
-    df = df[columns_to_keep]
-    
-    # Manejo de valores nulos para columnas numéricas
-    numeric_cols = df.select_dtypes(include='number').columns
-    df[numeric_cols] = df[numeric_cols].fillna(df[numeric_cols].mean())
-    
-    # Escalado de datos (excepto la columna 'year') si se requiere
-    if scale:
-        scaler = StandardScaler()
-        columns_to_scale = df.columns.difference(['year', 'country', 'iso_code'])
-        df[columns_to_scale] = scaler.fit_transform(df[columns_to_scale])
+    Parameters:
+    - df: pandas DataFrame
+    """
+    le = LabelEncoder()
+    # Aplicar Label Encoding a las columnas categóricas y mantener las columnas originales
+    df['country_encoded'] = le.fit_transform(df['country'])
+    df['iso_code_encoded'] = le.fit_transform(df['iso_code'])
     
     return df
 
+def plot_correlation_heatmap(df):
+    """
+    Generate a correlation heatmap from the DataFrame.
+    
+    Parameters:
+    - df: pandas DataFrame
+    """
+    # Generar la matriz de correlación solo con columnas numéricas
+    corr_matrix = df.corr()
+
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+    plt.title("Matriz de Correlación Mejorada")
+    plt.show()
+
+def plot_energy_consumption(df):
+    """
+    Plot total energy consumption by country.
+    
+    Parameters:
+    - df: pandas DataFrame
+    """
+    # Columnas de consumo
+    consumo_columns = ['solar_consumption', 'wind_consumption', 'biofuel_consumption', 'hydro_consumption']
+
+    # Verificar si 'country' está en el DataFrame
+    if 'country' not in df.columns:
+        raise KeyError("La columna 'country' no se encuentra en el DataFrame.")
+
+    # Sumar el consumo por país
+    df_consumo = df.groupby('country')[consumo_columns].sum().reset_index()
+
+    # Calcular el consumo total de energía para cada país
+    df_consumo['total_consumption'] = df_consumo[consumo_columns].sum(axis=1)
+
+    # Filtrar los países con mayor consumo total (por ejemplo, los 10 primeros)
+    df_top_countries = df_consumo.nlargest(10, 'total_consumption')
+
+    # Estilo: Gráfico de Barras Horizontales
+    plt.figure(figsize=(15, 10))
+    df_top_countries.set_index('country')[consumo_columns].plot(kind='barh', stacked=True)
+    plt.title('Consumo de energía renovable por países (Top 10)')
+    plt.xlabel('Consumo (TWh)')
+    plt.ylabel('Países')
+    plt.legend(title='Tipo de energía')
+    plt.show()
 
 
-def split_data(df):
-    '''
-    Divide el dataframe en conjuntos de entrenamiento y prueba.
+def save_cleaned_data(df, output_filepath):
+    """
+    Save the cleaned DataFrame to a CSV file.
     
-    Parámetros:
-    df: DataFrame a dividir.
-    
-    Devuelve:
-    X_train, X_test, y_train, y_test
-    '''
-    from sklearn.model_selection import train_test_split
-    
-    # Definir variable objetivo y características
-    X = df.drop(columns=['solar_electricity'])  # Variable objetivo: solar_electricity
-    y = df['solar_electricity']
-    
-    # Dividir en conjuntos de entrenamiento y prueba
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    
-    return X_train, X_test, y_train, y_test
-
+    Parameters:
+    - df: pandas DataFrame
+    - output_filepath: str, path to save the cleaned dataset
+    """
+    df.to_csv(output_filepath, index=False)
+    print("Archivo limpio guardado en:", output_filepath)

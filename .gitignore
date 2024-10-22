@@ -1,2 +1,4 @@
 __pycache__/
 model/
+data/clean/cleaned_merged_data.csv
+

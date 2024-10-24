@@ -14,8 +14,11 @@
 - [Canvas Presentation Link](#)
 
 
-<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP%20gif.gif" alt="SEAP" width="800" height="300" />
+## A quick Overview
 
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP.gif" alt="SEAP" width="800" height="500" />
+
+> In this project, you can generate fully interactive world and european maps to visualize renewable energy usage!!
 
 
 ## Project Overview

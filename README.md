@@ -1,3 +1,5 @@
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP%20LOGO.png" alt="SEAP" width="810" height="478" />
+
 # Sustainable Energy Analysis Platform (SEAP)
 
 *Predicting Future Energy Efficiency and Demand in Clean Energy Transitions Using Machine Learning and Deep Learning Techniques*

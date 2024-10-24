@@ -1,3 +1,5 @@
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP%20LOGO.png" alt="SEAP" width="810" height="478" />
+
 # Sustainable Energy Analysis Platform (SEAP)
 
 *Predicting Future Energy Efficiency and Demand in Clean Energy Transitions Using Machine Learning and Deep Learning Techniques*
@@ -23,6 +25,8 @@ The **Sustainable Energy Analysis Platform (SEAP)** is my final project of the D
 **Key Models:**
 - **Random Forest with GridSearchCV** for Machine Learning.
 - **Multi-Layer Perceptron (MLP)** for multivariate time series forecasting in Deep Learning.
+
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%201.png" alt="SEAP" width="810" height="478" />
 
 ## Objectives
 
@@ -69,6 +73,22 @@ The dataset used is from:
    - `SEAP_02_Machine_Learning_and_Deep_Learning.ipynb`
 
 4. Generated models and maps will be saved in `final_models` and `maps`.
+
+
+## Some Visualizations (Check my notebooks!)
+
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%203.png" alt="SEAP" width="600" height="378" />
+
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%202.png" alt="SEAP" width="600" height="378" /> 
+The chart highlights the global dependence on hydroelectricity and the growing role of solar and wind energy.
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%204.png" alt="SEAP" width="600" height="378" />
+The most striking trend observed in the graph is the exponential growth of solar and wind electricity generation. In contrast, hydroelectric and biofuel electricity sources have shown more modest growth or even slight declines. This suggests a clear shift towards renewable energy sources, particularly solar and wind power, in recent decades.
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%206.png" alt="SEAP" width="600" height="378" />
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%209.png" alt="SEAP" width="600" height="378" />
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%2010.png" alt="SEAP" width="600" height="378" />
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%2011.png" alt="SEAP" width="600" height="378" />
+
+
 
 
 ## Future Directions

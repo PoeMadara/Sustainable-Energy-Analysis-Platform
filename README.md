@@ -37,6 +37,8 @@ This project utilizes:
 
 ## Data Source
 
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/Our_World_in_Data_logo.png" alt="SEAP" width="250" height="142" />
+
 The dataset used is from:
 
 > Ritchie, H., Rosado, P., & Roser, M. (2023). *Energy*. Published at **OurWorldinData.org**. [Link](https://ourworldindata.org/energy)

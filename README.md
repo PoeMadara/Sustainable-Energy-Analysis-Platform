@@ -11,6 +11,11 @@
 
 - [Canvas Presentation Link](#)
 
+
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP%20gif.gif" alt="SEAP" width="800" height="300" />
+
+
+
 ## Project Overview
 
 The **Sustainable Energy Analysis Platform (SEAP)** is my final project of the Data Analytics Bootcamp at Ironhack, focusing on predicting renewable energy generation trends, including solar, wind, hydroelectric, and biofuel energy. By leveraging **Machine Learning** and **Deep Learning** techniques, the project aims to assess energy efficiency and demand during the transition to clean energy sources.

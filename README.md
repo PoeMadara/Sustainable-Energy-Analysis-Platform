@@ -6,6 +6,7 @@
 
 **Carlos Vergara Gámez** [LinkedIn](https://www.linkedin.com/in/carlosvergaragamez)
 
+
 ## Presentation Link
 
 - [Canvas Presentation Link](#)
@@ -36,6 +37,8 @@ This project utilizes:
 - **Geopandas** and **Folium** for spatial data analysis.
 
 ## Data Source
+
+<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/Our_World_in_Data_logo.png" alt="SEAP" width="250" height="142" />
 
 The dataset used is from:
 

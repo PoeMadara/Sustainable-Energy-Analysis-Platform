@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-The **Sustainable Energy Analysis Platform (SEAP)** is the final project of the Data Analytics Bootcamp at Ironhack, focusing on predicting renewable energy generation trends, including solar, wind, hydroelectric, and biofuel energy. By leveraging **Machine Learning** and **Deep Learning** techniques, the project aims to assess energy efficiency and demand during the transition to clean energy sources.
+The **Sustainable Energy Analysis Platform (SEAP)** is my final project of the Data Analytics Bootcamp at Ironhack, focusing on predicting renewable energy generation trends, including solar, wind, hydroelectric, and biofuel energy. By leveraging **Machine Learning** and **Deep Learning** techniques, the project aims to assess energy efficiency and demand during the transition to clean energy sources.
 
 **Key Models:**
 - **Random Forest with GridSearchCV** for Machine Learning.

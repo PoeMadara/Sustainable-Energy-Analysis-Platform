@@ -9,11 +9,15 @@
 
 ---
 
-## Readme (Versiones)
+## Readme (Idioma)
 
 <img src="https://flagcdn.com/gb.svg" width="23" alt="UK"> [English](https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform) <img src="https://flagcdn.com/gb.svg" width="23" alt="UK">
 
-<img src="https://flagcdn.com/es.svg" width="20" alt="ES"> [Español]() <img src="https://flagcdn.com/es.svg" width="20" alt="ES">
+<img src="https://flagcdn.com/es.svg" width="20" alt="ES"> [Español](https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/README_ES.md) <img src="https://flagcdn.com/es.svg" width="20" alt="ES">
+
+
+---
+
 
 ## ⭐ Enlace a la Presentación
 

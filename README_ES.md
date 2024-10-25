@@ -21,7 +21,7 @@
 
 ## ⭐ Enlace a la Presentación
 
-<img src="https://flagcdn.com/es.svg" width="20" alt="Bandera de España"> [Presentación en Canvas (En Español con algo de inglés)](https://www.canva.com/design/DAGUhRaaOmw/aEQhV185tQSanPWRcP_Y2w/view?utm_content=DAGUhRaaOmw&utm_campaign=designshare&utm_medium=link&utm_source=editor) <img src="https://flagcdn.com/gb.svg" width="23" alt="UK">
+<img src="https://flagcdn.com/es.svg" width="20" alt="Bandera de España"> [Presentación en Canvas (En Español)](https://www.canva.com/design/DAGUhRaaOmw/aEQhV185tQSanPWRcP_Y2w/view?utm_content=DAGUhRaaOmw&utm_campaign=designshare&utm_medium=link&utm_source=editor) <img src="https://flagcdn.com/es.svg" width="20" alt="ES">
 
 ---
 
@@ -37,9 +37,11 @@
 
 La **Plataforma de Análisis de Energía Sostenible (SEAP)** es mi proyecto final del Bootcamp de Data Analytics en Ironhack. El proyecto se enfoca en predecir las **tendencias de generación de energía renovable** para fuentes solares, eólicas, hidroeléctricas y biocombustibles. Aprovechando **Machine Learning** y **Deep Learning**, el objetivo es evaluar la eficiencia energética y la demanda durante la transición a fuentes de energía limpia.
 
+
 ### **Modelos Clave**:
-- 🌲 **Random Forest** con **GridSearchCV** para Machine Learning.
-- 🧠 **Perceptrón Multicapa (MLP)** para predicción de series temporales multivariadas en Deep Learning.
+- 🌲 **Bosque Aleatorio Multisalida para la Predicción de Series Temporales Multivariantes Optimizado con Grid Search** (MO-RF-MTSF-GS).
+- 🧠 **Red Neuronal Recurrente con Perceptrón Multicapa para la Predicción de Series Temporales Multivariantes** (RNN-MLP-MTSF).
+
 
 <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%201.png" alt="SEAP" width="810" height="478" />
 

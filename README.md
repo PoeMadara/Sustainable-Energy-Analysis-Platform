@@ -21,7 +21,7 @@
 
 ## ⭐ Presentation Link
 
-<img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag"> [Canvas Presentation (In Spanish with some English)](https://www.canva.com/design/DAGUhRaaOmw/aEQhV185tQSanPWRcP_Y2w/view?utm_content=DAGUhRaaOmw&utm_campaign=designshare&utm_medium=link&utm_source=editor) <img src="https://flagcdn.com/gb.svg" width="23" alt="UK">
+<img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag"> [Canvas Presentation (Only in Spanish)](https://www.canva.com/design/DAGUhRaaOmw/aEQhV185tQSanPWRcP_Y2w/view?utm_content=DAGUhRaaOmw&utm_campaign=designshare&utm_medium=link&utm_source=editor) <img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag">
 
 
 ---
@@ -38,9 +38,11 @@
 
 The **Sustainable Energy Analysis Platform (SEAP)** is my final project from the Data Analytics Bootcamp at Ironhack. The project focuses on predicting **renewable energy generation trends** for solar, wind, hydroelectric, and biofuel sources. By leveraging **Machine Learning** and **Deep Learning**, the goal is to assess energy efficiency and demand during the transition to clean energy sources.
 
+
 ### **Key Models**:
-- 🌲 **Random Forest** with **GridSearchCV** for Machine Learning.
-- 🧠 **Multi-Layer Perceptron (MLP)** for multivariate time series forecasting in Deep Learning.
+- 🌲 **Multi-Output Random Forest for Multivariate Time Series Forecasting Optimized with Grid Search** (MO-RF-MTSF-GS).
+- 🧠 **Recurrent Neural Network with Multilayer Perceptron for Multivariate Time Series Forecasting** (RNN-MLP-MTSF). 
+
 
 <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%201.png" alt="SEAP" width="810" height="478" />
 

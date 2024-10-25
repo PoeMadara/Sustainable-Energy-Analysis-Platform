@@ -21,7 +21,7 @@
 
 ## ⭐ Presentation Link
 
-<img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag"> [Canvas Presentation (In Spanish with some English)](https://www.canva.com/design/DAGUhRaaOmw/aEQhV185tQSanPWRcP_Y2w/view?utm_content=DAGUhRaaOmw&utm_campaign=designshare&utm_medium=link&utm_source=editor) <img src="https://flagcdn.com/gb.svg" width="23" alt="UK">
+<img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag"> [Canvas Presentation (Only in Spanish)](https://www.canva.com/design/DAGUhRaaOmw/aEQhV185tQSanPWRcP_Y2w/view?utm_content=DAGUhRaaOmw&utm_campaign=designshare&utm_medium=link&utm_source=editor) <img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag">
 
 
 ---

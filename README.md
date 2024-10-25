@@ -5,7 +5,13 @@
 *Historical Trends and Predicting Future Energy Efficiency and Demand in Clean Energy Transitions Using Machine Learning and Deep Learning Techniques between 1900 to 2074*
   
 ### 🧑 Author
- **Carlos Vergara Gámez** [LinkedIn](https://www.linkedin.com/in/carlosvergaragamez)
+
+ *Carlos Vergara Gámez*
+ 
+[Github](https://github.com/PoeMadara) - [LinkedIn](https://www.linkedin.com/in/carlosvergaragamez)
+
+E-mail: carlos.poemadara@gmail.com
+
 
 ---
 

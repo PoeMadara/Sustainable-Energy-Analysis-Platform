@@ -5,7 +5,12 @@
 *Tendencias históricas y predicción de la demanda y la eficiencia energética futuras en las transiciones hacia energías limpias mediante técnicas de aprendizaje automático y aprendizaje profundo entre 1900 y 2074*
 
 ### 🧑 Autor
- **Carlos Vergara Gámez** [LinkedIn](https://www.linkedin.com/in/carlosvergaragamez)
+
+ *Carlos Vergara Gámez*
+ 
+[Github](https://github.com/PoeMadara) - [LinkedIn](https://www.linkedin.com/in/carlosvergaragamez)
+
+E-mail: carlos.poemadara@gmail.com
 
 ---
 

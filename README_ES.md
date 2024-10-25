@@ -2,7 +2,7 @@
 
 # Plataforma de Análisis de Energía Sostenible (SEAP)
 
-*Predicción de la Eficiencia Energética y Demanda Futura en Transiciones a Energías Limpias Usando Técnicas de Machine Learning y Deep Learning*
+*Tendencias históricas y predicción de la demanda y la eficiencia energética futuras en las transiciones hacia energías limpias mediante técnicas de aprendizaje automático y aprendizaje profundo entre 1900 y 2074*
 
 ### 🧑 Autor
  **Carlos Vergara Gámez** [LinkedIn](https://www.linkedin.com/in/carlosvergaragamez)

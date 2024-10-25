@@ -30,7 +30,7 @@
 
 <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP.gif" alt="SEAP" width="800" height="500" />
 
-> 🗺 In this project, you can generate **fully interactive**  **world map** and  **European map** to explore renewable energy usage in an engaging way!
+> 🗺 In this project, you can generate a **fully interactive**  **world map** and  **Europe map** to explore renewable energy usage in an engaging way!
 
 ---
 

@@ -105,14 +105,15 @@ The dataset used in this project comes from:
 
 ---
 
-## 📊 Some Visualizations (Check out the notebooks!)
+## 📊 Some Visualizations (Check out the notebooks for more!)
 
 - **Global Renewable Energy Trends**:
   
-  <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%2010.png" alt="SEAP" width="600" height="378" />
+  <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%203.png" alt="SEAP" width="600" height="378" />
   
-  > The graph shows a significant increase in renewable electricity production, with solar and wind energy dominating.
+  > The graph shows a significant increase in renewable electricity production, with solar and wind energy growing over time, while hydroelectric power remains dominant. It also shows an exponential increase in electricity demand since 2000, making renewable energy sources currently insufficient to fully replace non-renewable energy.
 
+  
 - **Energy Demand vs. Supply**:
   
   <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%209.png" alt="SEAP" width="600" height="378" />

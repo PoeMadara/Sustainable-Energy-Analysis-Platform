@@ -109,7 +109,7 @@ El conjunto de datos utilizado en este proyecto proviene de:
   
   <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%203.png" alt="SEAP" width="600" height="378" />
   
-  > El gráfico muestra un aumento significativo en la producción de electricidad renovable, con la energía solar y eólica dominando.
+  > El gráfico muestra un aumento significativo en la producción de electricidad renovable, con la energía hidroeléctrica dominando, seguido de la solar y eólica.
 
 - **Demanda vs. Suministro de Energía**:
   

@@ -44,7 +44,7 @@ La **Plataforma de Análisis de Energía Sostenible (SEAP)** es mi proyecto fina
 
 
 ### **Modelos Clave**:
-- 🌲 **Bosque Aleatorio Multisalida para la Predicción de Series Temporales Multivariantes Optimizado con Grid Search** (MO-RF-MTSF-GS).
+- 🌲 **Random Forest Multisalida para la Predicción de Series Temporales Multivariantes Optimizado con Grid Search** (MO-RF-MTSF-GS).
 - 🧠 **Red Neuronal Recurrente con Perceptrón Multicapa para la Predicción de Series Temporales Multivariantes** (RNN-MLP-MTSF).
 
 

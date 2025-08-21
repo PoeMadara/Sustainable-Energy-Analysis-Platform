@@ -4,7 +4,7 @@
 
 *Historical Trends and Predicting Future Energy Efficiency and Demand in Clean Energy Transitions Using Machine Learning and Deep Learning Techniques between 1900 to 2074*
   
-### 🧑 Author
+### Author
 
  *Carlos Vergara Gámez*
  
@@ -25,14 +25,14 @@ E-mail: carlos.poemadara@gmail.com
 ---
 
 
-## ⭐ Presentation Link
+## Presentation Link
 
 <img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag"> [Canvas Presentation (Only in Spanish)](https://www.canva.com/design/DAGUhRaaOmw/aEQhV185tQSanPWRcP_Y2w/view?utm_content=DAGUhRaaOmw&utm_campaign=designshare&utm_medium=link&utm_source=editor) <img src="https://flagcdn.com/es.svg" width="20" alt="Spain Flag">
 
 
 ---
 
-## 👀 A Quick Overview
+## A Quick Overview
 
 <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP.gif" alt="SEAP" width="800" height="500" />
 
@@ -40,21 +40,21 @@ E-mail: carlos.poemadara@gmail.com
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 The **Sustainable Energy Analysis Platform (SEAP)** is my final project from the Data Analytics Bootcamp at Ironhack. The project focuses on predicting **renewable energy generation trends** for solar, wind, hydroelectric, and biofuel sources. By leveraging **Machine Learning** and **Deep Learning**, the goal is to assess energy efficiency and demand during the transition to clean energy sources.
 
 
 ### **Key Models**:
-- 🌲 **Multi-Output Random Forest for Multivariate Time Series Forecasting Optimized with Grid Search** (MO-RF-MTSF-GS).
-- 🧠 **Recurrent Neural Network with Multilayer Perceptron for Multivariate Time Series Forecasting** (RNN-MLP-MTSF). 
+- 📂 **Multi-Output Random Forest for Multivariate Time Series Forecasting Optimized with Grid Search** (MO-RF-MTSF-GS).
+- 📂 **Recurrent Neural Network with Multilayer Perceptron for Multivariate Time Series Forecasting** (RNN-MLP-MTSF). 
 
 
 <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%201.png" alt="SEAP" width="810" height="478" />
 
 ---
 
-## 🎯 Objectives
+## Objectives
 -  Predict future energy production trends for renewable sources.
 -  Analyze energy demand and efficiency in clean energy transitions.
 -  Provide **interactive visualizations** for data exploration and predictions.
@@ -62,7 +62,7 @@ The **Sustainable Energy Analysis Platform (SEAP)** is my final project from the
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 This project leverages a variety of tools:
 -  **Python**, **Pandas**, **NumPy** for data processing.
 -  **Matplotlib**, **Seaborn**, **Plotly** for visualizations.
@@ -72,7 +72,7 @@ This project leverages a variety of tools:
 
 ---
 
-## 🗂️ Data Source
+##  Data Source
 <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/Our_World_in_Data_logo.png" alt="SEAP" width="250" height="142" />
 
 The dataset used in this project comes from:
@@ -81,13 +81,13 @@ The dataset used in this project comes from:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 - 📂 **SEAP_01_EDA_map_and_cleaning.ipynb**: Exploratory Data Analysis and cleaning, including map visualizations.
 - 📂 **SEAP_02_Machine_Learning_and_Deep_Learning.ipynb**: Implementation of Machine Learning and Deep Learning models for energy prediction.
 
 ---
 
-## 💻 Usage Instructions
+## Usage Instructions
 
 1. Clone the repository and set up the environment:
    ```bash
@@ -105,7 +105,7 @@ The dataset used in this project comes from:
 
 ---
 
-## 📊 Some Visualizations (Check out the notebooks for more!)
+## Some Visualizations (Check out the notebooks for more!)
 
 - **Global Renewable Energy Trends**:
   
@@ -122,13 +122,13 @@ The dataset used in this project comes from:
 
 ---
 
-## 🔮 Future Directions
+## Future Directions
 
 Looking ahead, my goal is to develop an **AI system** capable of managing larger datasets through **Deep Learning** techniques. This AI will provide **real-time predictions** and enable **interactive communication**, allowing users to explore energy-related challenges and propose sustainable solutions.
 
 ---
 
-## ❤️ Acknowledgements
+## Acknowledgements
 
 I would like to express my heartfelt gratitude to **Ironhack Bootcamp** for all the invaluable knowledge and skills I've acquired throughout this journey. The experience has not only been educational but also incredibly enriching on a personal level.
 

@@ -1,4 +1,4 @@
-<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP%20LOGO.png" alt="SEAP" width="810" height="478" />
+<img width="1010" height="300" alt="SEAP LOGO" src="https://github.com/user-attachments/assets/fc13ebd4-94d4-4ae0-818b-525c2c4ab527" />
 
 # Sustainable Energy Analysis Platform (SEAP) 
 
@@ -50,7 +50,7 @@ The **Sustainable Energy Analysis Platform (SEAP)** is my final project from the
 - 📂 **Recurrent Neural Network with Multilayer Perceptron for Multivariate Time Series Forecasting** (RNN-MLP-MTSF). 
 
 
-<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%201.png" alt="SEAP" width="810" height="478" />
+<img width="826" height="610" alt="output 1" src="https://github.com/user-attachments/assets/3a11e125-342b-42db-97ab-a69c97ad95c6" />
 
 ---
 
@@ -73,7 +73,8 @@ This project leverages a variety of tools:
 ---
 
 ##  Data Source
-<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/Our_World_in_Data_logo.png" alt="SEAP" width="250" height="142" />
+
+<img width="250" height="142" alt="Our_World_in_Data_logo" src="https://github.com/user-attachments/assets/7be520c5-8b56-45ac-a727-6b1b209284b7" />
 
 The dataset used in this project comes from:
 
@@ -109,15 +110,16 @@ The dataset used in this project comes from:
 
 - **Global Renewable Energy Trends**:
   
-  <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%203.png" alt="SEAP" width="600" height="378" />
-  
+  <img width="600" height="378" alt="output 3" src="https://github.com/user-attachments/assets/39603822-8a62-43bc-9861-b06fc4e6ccd8" />
+
   > The graph shows a significant increase in renewable electricity production, with solar and wind energy growing over time, while hydroelectric power remains dominant. It also shows an exponential increase in electricity demand since 2000, making renewable energy sources currently insufficient to fully replace non-renewable energy.
 
   
 - **Energy Demand vs. Supply**:
   
   <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%209.png" alt="SEAP" width="600" height="378" />
-  
+  <img width="600" height="378" alt="output 9" src="https://github.com/user-attachments/assets/08559039-2ff2-4b01-ad88-162bd5615ae3" />
+
   > The chart compares predicted and actual electricity demand, highlighting the model's accuracy.
 
 ---
@@ -139,3 +141,8 @@ I also want to extend my appreciation to all my fellow classmates. Thank you for
 *Thank you all for being a part of this transformative experience!*
 
 **Carlos Vergara Gámez**
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

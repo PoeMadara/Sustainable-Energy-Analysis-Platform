@@ -117,7 +117,6 @@ The dataset used in this project comes from:
   
 - **Energy Demand vs. Supply**:
   
-  <img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/outputs/output%209.png" alt="SEAP" width="600" height="378" />
   <img width="600" height="378" alt="output 9" src="https://github.com/user-attachments/assets/08559039-2ff2-4b01-ad88-162bd5615ae3" />
 
   > The chart compares predicted and actual electricity demand, highlighting the model's accuracy.
@@ -145,4 +144,4 @@ I also want to extend my appreciation to all my fellow classmates. Thank you for
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/LICENSE) file for details.

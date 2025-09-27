@@ -1,4 +1,4 @@
-<img width="1010" height="300" alt="SEAP LOGO" src="https://github.com/user-attachments/assets/fc13ebd4-94d4-4ae0-818b-525c2c4ab527" />
+<img width="1010" height="260" alt="SEAP LOGO" src="https://github.com/user-attachments/assets/fc13ebd4-94d4-4ae0-818b-525c2c4ab527" />
 
 # Sustainable Energy Analysis Platform (SEAP) 
 
@@ -34,7 +34,7 @@ E-mail: carlos.poemadara@gmail.com
 
 ## A Quick Overview
 
-<img src="https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/repository_images/SEAP.gif" alt="SEAP" width="800" height="500" />
+![SEAP Quick overview final](https://github.com/user-attachments/assets/1cf40e8a-5b70-4edd-91d1-8f60b9ad4ec6)
 
 > 🗺 In this project, you can generate a **fully interactive**  **world map** and  **Europe map** to explore renewable energy usage in an engaging way!
 

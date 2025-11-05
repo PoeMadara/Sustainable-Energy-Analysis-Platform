@@ -142,7 +142,6 @@ I also want to extend my appreciation to all my fellow classmates. Thank you for
 
 **Carlos Vergara Gámez**
 
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/PoeMadara/Sustainable-Energy-Analysis-Platform/blob/main/LICENSE) file for details.

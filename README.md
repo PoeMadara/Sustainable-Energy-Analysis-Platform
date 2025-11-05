@@ -2,7 +2,8 @@
 
 # Sustainable Energy Analysis Platform (SEAP) 
 
-*Historical Trends and Predicting Future Energy Efficiency and Demand in Clean Energy Transitions Using Machine Learning and Deep Learning Techniques between 1900 to 2074*
+*Historical Trends and Predicting Future Energy Efficiency and Demand in Clean Energy Transitions Using Machine Learning and Deep Learning Techniques between 1900 to 2074.*
+*Optimized for execution on AWS SageMaker (model training), Redshift (data analysis), and S3 (dataset storage).*
   
 ### Author
 
